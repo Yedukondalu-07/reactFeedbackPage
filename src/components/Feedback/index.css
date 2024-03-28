@@ -1,0 +1,115 @@
+/* Write your CSS code here. */
+.emojis-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  height: 50vh;
+  border-radius: 20px;
+  margin: 50px;
+}
+.emojis-container .heading {
+  color: #1e293b;
+  font-family: roboto;
+  padding: 0px 50px 0px 50px;
+}
+.emojis-container .emoji-img {
+  width: 96px;
+  padding: 10px;
+  background-color: #fff;
+}
+.emojis-container .feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.emojis-container .emoji-name {
+  font-size: 20px;
+}
+.emojis-container .each-emoji {
+  margin: 50px;
+}
+.emojis-container .emoji-button {
+  cursor: pointer;
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+.love-emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 50vh;
+  border-radius: 50px;
+  margin: 50px;
+}
+.love-emoji-container .emoji-img {
+  width: 96px;
+  padding: 10px;
+  background-color: #fff;
+}
+.love-emoji-container .heading {
+  color: #1e293b;
+  font-family: roboto;
+}
+.love-emoji-container .discription {
+  padding: 0px 50px 0px 50px;
+  color: #1e293b;
+  font-size: 24px;
+}
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .emojis-container .emoji-img {
+    width: 80px;
+  }
+  .emojis-container .each-emoji {
+    margin: 20px;
+  }
+  .love-emoji-container .emoji-img {
+    width: 80px;
+  }
+}
+@media (max-width: 575px) {
+  .emojis-container .emoji-img {
+    width: 50px;
+  }
+  .emojis-container .heading {
+    font-size: 14px;
+  }
+  .emojis-container .each-emoji {
+    margin: 10px;
+  }
+  .emojis-container .emoji-name {
+    font-size: 14px;
+  }
+  .love-emoji-container .emoji-img{
+    width: 50px;
+  }
+  .love-emoji-container .heading{
+    font-size: 20px;
+  }
+  .love-emoji-container .discription{
+    font-size: 14px;
+  }
+}
+
